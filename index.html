@@ -7,70 +7,80 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>Trey Decker | Web Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootflat/css/bootflat.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
-    <div class="jumbotron fullscreen">
-      <div class="thumbnail centered thumb-landing">
-        <img src="assets/me.jpg" class="centered">
-        <div class="caption">
-          <h3>Trey Decker</h3>
-          <h6>Web Developer</h6>
-          <div class="btn-group">
-            <a href="#about" class="btn btn-grapefruit">About Me</a>
-            <a href="professional.html" class="btn btn-grapefruit">Career</a>
+    <section>
+      <div class="jumbotron fullscreen">
+        <div class="thumbnail centered thumb-landing">
+          <img src="assets/me.jpg" class="centered">
+          <div class="caption">
+            <h3>Trey Decker</h3>
+            <h6>Web Developer</h6>
+            <div class="btn-group">
+              <a href="#about" class="btn btn-grapefruit" id="about-btn">About Me</a>
+              <a href="professional.html#professional" class="btn btn-grapefruit">Career</a>
+            </div>
+          </div>
+          <button type="button" class="btn" id="fun">Click me!</button>
+          <div class="spinner">
+            <div class="dot1"></div>
+            <div class="dot2"></div>
           </div>
         </div>
       </div>
-        </div>
-      </div>
-    </div>
+    </section>
 
-    <div id="about">
-      <div class="about-header">
-        <h4>Who is this guy?</h4>
-      </div>
-      <div class="about-text">
-        <p>Originally from southern Indiana, I now reside in sunny Boulder, CO.</p>
-        <p>I am currently studying at Galvanize in Denver to shift into web development; however
-          I have a passion for and some experience in: backend development, infrastructure, and information privacy policy.
-        </p>
-        <p>Prior to joining Galvanize, I obtained a Bachelor of Science in Information Technology with a minor in Computer Science
-        from Indiana State University. After I spent time in IT infrastructure support, IT management, and software support.
-        </p>
-        <p>In my free time you can catch me riding my bicycle around Boulder's paths in search of beer, reading all sorts of
-        information across the web, coding, volunteering, trying to grow a garden despite Colorado's aridity, or brewing a batch of beer with my pals in Longmont.
-        </p>
-        <div class="row">
-          <div class="col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="assets/bike-hill.jpg">
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="assets/brewday.jpg">
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="assets/sunflower.jpg">
-            </a>
-          </div>
+    <section>
+      <div id="about">
+        <div class="about-header">
+          <h4>who is this guy?</h4>
+        </div>
+        <div class="about-text">
+          <p>originally from southern indiana, i now reside in sunny boulder, co.</p>
+          <p>i am currently studying at galvanize in denver to shift into web development; however
+            i have a passion for and some experience in: backend development, infrastructure, and information privacy policy.
+          </p>
+          <p>prior to joining galvanize, i obtained a bachelor of science in information technology with a minor in computer science
+          from indiana state university. after i spent time in it infrastructure support, it management, and software support.
+          </p>
+          <p>in my free time you can catch me riding my bicycle around boulder's paths in search of beer, reading all sorts of
+          information across the web, coding, volunteering, trying to grow a garden despite colorado's aridity, or brewing a batch of beer with my pals in longmont.
+          </p>
           </div>
         </div>
-      </div>
-    </div><!-- #about -->
+          <div class="photos">
+          <div class="row">
+            <div class="col-md-4">
+              <a href="#" class="thumbnail">
+                <img src="assets/bike-hill.jpg">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" class="thumbnail">
+                <img src="assets/brewday.jpg">
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#" class="thumbnail">
+                <img src="assets/sunflower.jpg">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div><!-- #about -->
+    </section>
 
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
     <!-- Bootflat's JS files.-->
     <script src="https://bootflat.github.io/bootflat/js/icheck.min.js"></script>
-    <script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>
+    <!--<script src="https://bootflat.github.io/bootflat/js/jquery.fs.selecter.min.js"></script>-->
     <script src="js/app.js">
     </script>
   </body>
