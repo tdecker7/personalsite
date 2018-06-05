@@ -1,29 +1,56 @@
+/*
+** GENERAL
+*/
 div {
   padding-left: 20px;
   padding-right: 20px;
 }
+div.centered {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
 
+/*
+** header
+*/
 div.jumbotron {
   background-image: url('../assets/field.jpg');
   background-size: cover;
+  min-height: 100%;
 }
 div.fullscreen {
-  height: 100%;
+  min-height: 100vh;
   width: 100%;
   padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+div.thumb-landing {
+  max-width: 30%;
 }
 img.me {
   padding-top: 25px;
   max-width: 30%;
   border-radius: 50%;
 }
-
-div.capt-slider {
-  display: none;
+a.btn-grapefruit {
+  background-color: #ED5565;
+  border-color: #ED5565;
+  border-left-color: #ED5565;
+}
+a.btn-grapefruit:hover {
+  background-color: #DA4453;
+  border-color: #DA4453;
+  border-left-color: #DA4453;
 }
 
-div.centered {
-  float: none;
-  margin: 0 auto;
-  text-align: center;
+/*
+* #about
+*/
+div.about-header {
+  padding-top: 40px;
+}
+div.capt-slider {
+  display: none;
 }
