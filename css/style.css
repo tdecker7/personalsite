@@ -1,0 +1,29 @@
+div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.jumbotron {
+  background-image: url('../assets/field.jpg');
+  background-size: cover;
+}
+div.fullscreen {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 20px;
+}
+img.me {
+  padding-top: 25px;
+  max-width: 30%;
+  border-radius: 50%;
+}
+
+div.capt-slider {
+  display: none;
+}
+
+div.centered {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
