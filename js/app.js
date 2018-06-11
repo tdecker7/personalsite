@@ -26,9 +26,13 @@ $(document).ready( function () {
       scrollTop: $('#about').offset().top
     }, 1000);
   });
-  /*
+
   $window.scroll( function () {
-    if ($window.scrollTop() <= origPosition.top) {
+
+    if ($window.scrollTop() <= $('#about')) {
+      console.log($('#about').children());
+    }
+    /*if ($window.scrollTop() <= origPosition.top) {
       btn.removeClass('sticky');
     }
     if ($window.scrollTop() >= distance) {
@@ -39,6 +43,6 @@ $(document).ready( function () {
       btn.addClass('sticky');
       console.log('at the top');
     }
-  })
   */
+  })
 })
